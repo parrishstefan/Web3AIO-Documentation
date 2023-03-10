@@ -196,7 +196,7 @@ Github: https://github.com/parrishstefan/
 [proxy-screenshot]: images/screenshot4.png
 [settings-screenshot]: images/screenshot5.png
 [tasksettings-screenshot]: images/screenshot6.png
-[webhook-screenshot]: images/webhook.png
+[webhook-screenshot]: images/webhook.PNG
 
 [contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-2-brightgreen?style=for-the-badge
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge

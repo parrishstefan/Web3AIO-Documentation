@@ -136,111 +136,55 @@ Web3 AIO would allow us at a press of a button to monitor these contracts for th
 * Speed Up
   * Will resubmit all running tasks with new gas price for a better chance at getting picked up quicker by miners on the blockchain
 
+<!-- Wallets-->
+## Wallets
+![Wallets Screenshot][wallets-screenshot]
 
-### Installation
+### Features
+ * Ability to add unlimited wallet addresses to use for your tasks
+ * View Ethereum balance of each wallet
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+<!-- Proxies-->
+## Proxies
+![Proxy Screenshot][proxy-screenshot]
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+To bypass rate-limiting restrictions established by API usage, proxy-usage is required if running multiple tasks.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Features
+ * Copy and paste unlimited proxies with username/password authentication or IP authentication
+ * Format (IP:Port:Username:Password) or (IP:Port)
 
+<!-- Settings-->
+## Settings
+![Settings Screenshot][settings-screenshot]
+![Webhook Screenshot][webhook-screenshot]
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+### Features
+ * Discord Wwebhook - Allows users to have their successful and failed transactions to be posted into their discord server
+ * API URL - User's Alchemy API url to interact with the Ethereum blockchain
+ * Currency - Ability to switch between major worldwide currencies
+ * Open task in browser - Will open the transaction hash on https://etherscan.io/ of failed or successful transacstion
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contributions
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Frontend - https://github.com/callum411/
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Backend - https://github.com/parrishstefan/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Personal Website - https://www.stefanparrish.com/
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+LinkedIn - https://www.linkedin.com/in/stefan-parrish-875522137/
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+Github: https://github.com/parrishstefan/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -248,10 +192,11 @@ Use this space to list resources you find helpful and would like to give credit 
 [preview-gif]: images/preview.gif
 [product-screenshot]: images/screenshot.png
 [task-screenshot]: images/screenshot2.png
-[wallet-screenshot]: images/screenshot3.png
+[wallets-screenshot]: images/screenshot3.png
 [proxy-screenshot]: images/screenshot4.png
 [settings-screenshot]: images/screenshot5.png
 [tasksettings-screenshot]: images/screenshot6.png
+[webhook-screenshot]: images/webhook.png
 
 [contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-2-brightgreen?style=for-the-badge
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge

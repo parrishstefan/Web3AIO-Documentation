@@ -160,7 +160,7 @@ To bypass rate-limiting restrictions established by API usage, proxy-usage is re
 ![Webhook Screenshot][webhook-screenshot]
 
 ### Features
- * Discord Wwebhook - Allows users to have their successful and failed transactions to be posted into their discord server
+ * Discord Webhook - Allows users to have their successful and failed transactions to be posted into their discord server
  * API URL - User's Alchemy API url to interact with the Ethereum blockchain
  * Currency - Ability to switch between major worldwide currencies
  * Open task in browser - Will open the transaction hash on https://etherscan.io/ of failed or successful transacstion

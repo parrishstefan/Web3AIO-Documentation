@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Product Name Screen Shot][product-screenshot]
+![Product Preview][preview-gif]
 
 Web3AIO is an application that allows users to interact with smart contracts on the Ethereum blockchain. It has multi-wallet support, real-time contract monitoring with a 0.1 response time, proxy usage, and webhook access, making it easy and efficient for users to manage their contracts.
 
@@ -114,11 +114,27 @@ Web3 AIO would allow us at a press of a button to monitor these contracts for th
 
 ### Features
 
-* Prices Overview
-  * Real-time price monitoring of Ethereum and Solana with custom graph interface
-  * Real-time gas price monitoring of the Ethereum blockchain with predicted transaction speed
-* Your Mints
-  * Scrape your default wallet address and display your most recent NFT purchases
+* Create Tasks
+  * Opens a pop-up window with customizable settings for the user to input
+    * Wallet - Choose designated wallet you would like to use with the specific task
+    * Transaction Cost - Cost of one NFT to mint
+    * Transaction Quantitity - Total amount of NFTs you would like to mint
+    * Contract Address - The address which you will be interacting with
+    * Function Name - Name of the function on the contract address you would like to interact with
+    * Function Params - Parameters required by the minting function from the contract address
+    * Gas Price Method
+      * Rapid - Highest gas price for a transaction to be mined (30s - 1min)
+      * Medium - Average gas price for a transaction to be mined (5m - 10m)
+      * Slow - Lowest gas price for a transaction to be mined (30min - 1hr)
+      * Custom - Value set by user
+* Start
+  * Starts all available tasks simulataneously
+* Stop
+  * Stops all running tasks simulataneously
+* Delete
+  * Deletes all available tasks simulataneously
+* Speed Up
+  * Will resubmit all running tasks with new gas price for a better chance at getting picked up quicker by miners on the blockchain
 
 
 ### Installation
@@ -229,6 +245,7 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[preview-gif]: images/preview.gif
 [product-screenshot]: images/screenshot.png
 [task-screenshot]: images/screenshot2.png
 [wallet-screenshot]: images/screenshot3.png

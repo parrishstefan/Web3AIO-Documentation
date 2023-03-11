@@ -33,19 +33,13 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#dashboard">Dashboard</a></li>
+    <li><a href="#tasks">Tasks</a></li>
+    <li><a href="#wallets">Wallets</a></li>
+    <li><a href="#proxies">Proxies</a></li>
+    <li><a href="#settings">Settings</a></li>
+    <li><a href="#contributions">Contributions</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
